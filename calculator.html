@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="calculator.js"></script>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+	<title>Calculator</title>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<img src="menu.jpg">
+			<label class="simple">Обычный</label>
+		</div>
+		<div class=" input"><form name="form"><input type="text" name="textview" readonly></form></div>
+		<div class="item percent" onclick="insert('%')">%</div>
+		<div class="item root">X^2/1</div>
+		<div class="item square">X^2</div>
+		<div class="item derivative">1/X</div>
+		<div class="item clean1 " onclick="clean()">CE</div>
+		<div class="item clean2" onclick="clean()">C</div>
+		<div class="item backspace" onclick="back()"><img src="backspace.webp"></div>
+		<div class="item divide" onclick="insert('/')">/</div>
+		<div class="item seven number" onclick="insert('7')">7</div>
+		<div class="item eight number" onclick="insert('8')">8</div>
+		<div class="item nine number" onclick="insert('9')">9</div>
+		<div class="item minus" onclick="insert('-')">-</div>
+		<div class="item four number" onclick="insert('4')">4</div>
+		<div class="item five number" onclick="insert('5')">5</div>
+		<div class="item six number" onclick="insert('6')">6</div>
+		<div class="item plus" onclick="insert('+')">+</div>
+		<div class="item one number" onclick="insert('1')">1</div>
+		<div class="item two number" onclick="insert('2')">2</div>
+		<div class="item three number" onclick="insert('3')">3</div>
+		<div class="item comma" onclick="insert('.')">.</div>
+		<div class="item equal" onclick="equal()">=</div>
+		<div class="item zero number" onclick="insert('0')">0</div>
+	</div>
+
+</body>
+</html>
